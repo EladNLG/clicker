@@ -1,0 +1,47 @@
+div {
+    border-style: solid;
+    width: 480px;
+    height: fit-content;
+    position: fixed;
+    left: 38%
+}
+h1, h2, h3, h4, h5, h6 {
+    animation-name: rainbow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    color: red;
+    text-align: center;
+    font-size: 250%
+}
+@keyframes rainbow {
+    0% {color: red;}
+    16.6% {color: orange;}
+    33.3% {color: yellow;}
+    50% {color: green;}
+    66.6% {color: blue;}
+    83.3% {color: purple;}
+}
+button {
+    animation-name: rainbow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    color: red;
+    top: 30%;
+    position: fixed;
+}
+p {
+    text-align: center;
+    font-size: 50px;
+}
+#cost {
+    position: fixed;
+    left: 47.5%;
+    top: 32%;
+    font-size: 24px;
+}
+#clickW {
+    position: fixed;
+    left: 47.5%;
+    top: 36%;
+    font-size: 24px;
+}

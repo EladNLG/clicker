@@ -29,7 +29,7 @@ button {
     top: 30%;
     position: fixed;
 }
-p {
+p.p {
     text-align: center;
     font-size: 50px;
 }

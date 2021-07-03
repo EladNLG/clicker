@@ -8,7 +8,7 @@ function more(){
     if (amount >= cost){
         document.getElementById("counter").innerHTML = document.getElementById("counter").innerHTML * 1 - cost;
         click += Math.floor(Math.random() * 4) + 1
-        cost = cost + Math.floor(Math.random() * 25)
+        cost *= Math.random()
         document.getElementById("cost").innerHTML = "Cost: " + cost + "$"
         document.getElementById("clickW").innerHTML = "Click: " + click + "$"
     }
